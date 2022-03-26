@@ -1,0 +1,99 @@
+{
+    "baseURL": "https://lisboaxd.github.io/",
+    "languageCode": "en",
+    "defaultContentLanguage": "en",
+    "defaultContentLanguageInSubdir": true,
+    "title": "Mateus Lisboa",
+    "theme": [
+        "hello-friend-ng"
+    ],
+    "params": {
+        "EnableGlobalLanguageMenu": true,
+        "dateform": "Jan 2, 2006",
+        "dateformShort": "Jan 2",
+        "dateformNum": "2006-01-02",
+        "dateformNumTime": "2006-01-02 15:04",
+        "disableReadOtherPosts": false,
+        "enableSharingButtons": true,
+        "keywords": "homepage, blog",
+        "images": [
+            "https://media-exp1.licdn.com/dms/image/C4E22AQEjmsdRXs1cIw/feedshare-shrink_800/0/1648091926697?e=1651104000&v=beta&t=uPZDDvIbeV1_xyZf5JWR9vWOCqAFqn2R-alNKYBGoIY"
+        ],
+        "Portrait": {
+            "path": "https://avatars.githubusercontent.com/u/9933423?v=4",
+            "MaxWidth": "300px"
+        },
+        "social": [
+            {
+                "url": "https://github.com/lisboaxd",
+                "name": "github"
+            },
+            {
+                "url": "https://www.linkedin.com/in/mateus-lisboa",
+                "name": "linkedin"
+            },
+            {
+                "url": "https://t.me/mateuslisboa",
+                "name": "telegram"
+            }
+        ]
+    },
+    "taxonomies": {
+        "category": "blog",
+        "tag": "tags",
+        "series": "series"
+    },
+    "languages": {
+        "en": {
+            "title": "Mateus Lisboa",
+            "subtitle": "Web Developer | Python | Another languages. Love to code and trying understand deeply how does anything works",
+            "keywords": "",
+            "copyright": "<a href=\"https://creativecommons.org/licenses/by-nc/4.0/\" target=\"_blank\" rel=\"noopener\">Copyright</a>",
+            "readOtherPosts": "Read other posts",
+            "params": {
+                "homeSubtitle": "Web Programmer | Python",
+                "logo": {
+                    "logoText": "$ cd /home/",
+                    "logoHomeLink": "/"
+                },
+                "footer": {
+                    "trademark": true,
+                    "copyright": true
+                },
+                "description": "Welcome! My contacts and soon some posts about technology"
+            }
+        },
+        "pt-br": {
+            "title": "Mateus Lisboa",
+            "subtitle": "Programador web | Python | Outras linguagens",
+            "readOtherPosts": "Leia outras postagens",
+            "copyright": "<a href=\"https://creativecommons.org/licenses/by-nc/4.0/\" target=\"_blank\" rel=\"noopener\">Copyright</a>",
+            "params": {
+                "homeSubtitle": "Programador Web | Python",
+                "logo": {
+                    "logoText": "$ cd /inicio/",
+                    "logoHomeLink": "/"
+                },
+                "footer": {
+                    "trademark": true,
+                    "copyright": true
+                },
+                "description": "Seja bem-vindo! Meus contatos e em breve alguns posts sobre technologia"
+            }
+        }
+    },
+    "menu": {
+        "main": [
+            {
+                "identifier": "blog",
+                "name": "Blog",
+                "url": "/posts"
+            },
+            {
+                "identifier": "articles",
+                "name": "Articles",
+                "url": "/articles"
+            }
+        ]
+    }
+}
