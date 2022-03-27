@@ -47,7 +47,7 @@
     "languages": {
         "en": {
             "languageName": "English",
-            "contentDir": "content/english",
+            "contentDir": "content/en",
             "title": "Mateus Lisboa",
             "subtitle": "Web Developer | Python | Another languages. Love to code and trying understand deeply how does anything works",
             "keywords": "",
@@ -69,7 +69,7 @@
         },
         "pt-br": {
             "languageName": "Português",
-            "contentDir": "content/portuguese",
+            "contentDir": "content/pt-br",
             "title": "Mateus Lisboa",
             "subtitle": "Programador web | Python | Outras linguagens",
             "readOtherPosts": "Leia outras postagens",
@@ -92,31 +92,11 @@
     "menu": {
         "main": [
             {
-                "identifier": "blog",
-                "name": "blog",
-                "url": "/blog"
+                "identifier": "post",
+                "name": "post",
+                "url": "/post"
             }
         ]
-    },
-    "markup": {
-        "blackFriday": {
-            "angledQuotes": false,
-            "extensions": null,
-            "extensionsMask": null,
-            "footnoteAnchorPrefix": "",
-            "footnoteReturnLinkContents": "",
-            "fractions": true,
-            "hrefTargetBlank": false,
-            "latexDashes": true,
-            "nofollowLinks": false,
-            "noreferrerLinks": false,
-            "plainIDAnchors": true,
-            "skipHTML": false,
-            "smartDashes": true,
-            "smartypants": true,
-            "smartypantsQuotesNBSP": false,
-            "taskLists": true
-        }
     },
     "module": {
         "mounts": [
