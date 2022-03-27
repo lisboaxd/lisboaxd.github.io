@@ -21,7 +21,7 @@
             "https://media-exp1.licdn.com/dms/image/C4E22AQEjmsdRXs1cIw/feedshare-shrink_800/0/1648091926697?e=1651104000&v=beta&t=uPZDDvIbeV1_xyZf5JWR9vWOCqAFqn2R-alNKYBGoIY"
         ],
         "Portrait": {
-            "path": "https://avatars.githubusercontent.com/u/9933423?v=4",
+            "path": "",
             "MaxWidth": "300px"
         },
         "social": [
@@ -46,7 +46,7 @@
     },
     "languages": {
         "en": {
-            "languageName":"English",
+            "languageName": "English",
             "contentDir": "content/english",
             "title": "Mateus Lisboa",
             "subtitle": "Web Developer | Python | Another languages. Love to code and trying understand deeply how does anything works",
@@ -117,5 +117,13 @@
             "smartypantsQuotesNBSP": false,
             "taskLists": true
         }
+    },
+    "module": {
+        "mounts": [
+            {
+                "source": "assets",
+                "target": "assets"
+            }
+        ]
     }
 }
