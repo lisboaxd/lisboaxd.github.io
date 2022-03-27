@@ -46,6 +46,8 @@
     },
     "languages": {
         "en": {
+            "languageName":"English",
+            "contentDir": "content/english",
             "title": "Mateus Lisboa",
             "subtitle": "Web Developer | Python | Another languages. Love to code and trying understand deeply how does anything works",
             "keywords": "",
@@ -66,6 +68,8 @@
             }
         },
         "pt-br": {
+            "languageName": "Português",
+            "contentDir": "content/portuguese",
             "title": "Mateus Lisboa",
             "subtitle": "Programador web | Python | Outras linguagens",
             "readOtherPosts": "Leia outras postagens",
