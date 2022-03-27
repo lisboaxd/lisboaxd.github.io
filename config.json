@@ -8,6 +8,7 @@
         "hello-friend-ng"
     ],
     "params": {
+        "mathjax": true,
         "EnableGlobalLanguageMenu": true,
         "dateform": "Jan 2, 2006",
         "dateformShort": "Jan 2",
@@ -52,6 +53,7 @@
             "readOtherPosts": "Read other posts",
             "params": {
                 "homeSubtitle": "Web Programmer | Python",
+                "mathjax": true,
                 "logo": {
                     "logoText": "$ cd /home/",
                     "logoHomeLink": "/"
@@ -70,6 +72,7 @@
             "copyright": "<a href=\"https://creativecommons.org/licenses/by-nc/4.0/\" target=\"_blank\" rel=\"noopener\">Copyright</a>",
             "params": {
                 "homeSubtitle": "Programador Web | Python",
+                "mathjax": true,
                 "logo": {
                     "logoText": "$ cd /inicio/",
                     "logoHomeLink": "/"
@@ -86,14 +89,29 @@
         "main": [
             {
                 "identifier": "blog",
-                "name": "Blog",
-                "url": "/posts"
-            },
-            {
-                "identifier": "articles",
-                "name": "Articles",
-                "url": "/articles"
+                "name": "blog",
+                "url": "/blog"
             }
         ]
+    },
+    "markup": {
+        "blackFriday": {
+            "angledQuotes": false,
+            "extensions": null,
+            "extensionsMask": null,
+            "footnoteAnchorPrefix": "",
+            "footnoteReturnLinkContents": "",
+            "fractions": true,
+            "hrefTargetBlank": false,
+            "latexDashes": true,
+            "nofollowLinks": false,
+            "noreferrerLinks": false,
+            "plainIDAnchors": true,
+            "skipHTML": false,
+            "smartDashes": true,
+            "smartypants": true,
+            "smartypantsQuotesNBSP": false,
+            "taskLists": true
+        }
     }
 }
